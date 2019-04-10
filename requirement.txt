@@ -1,0 +1,8 @@
+argparse
+keyring
+six
+aws_google_auth
+tzlocal
+lxml
+requests
+bs4
