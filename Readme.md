@@ -14,7 +14,7 @@ localhost$ sudo pip install -r requirement.txt
 
 # Run the below command from your local machine
 
-python __init__.py
+python __init__.py -u username [-I IDP_ID] [-S SP_ID] [-R REGION]
 
 it will prompt you to provide email details and password.
 
