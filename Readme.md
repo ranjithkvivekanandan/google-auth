@@ -3,13 +3,14 @@
 
 This command-line tool allows you to acquire AWS temporary (STS) credentials using Google Apps as a federated (Single Sign-On, or SSO) provider.
 
-Setup:
 
 You'll first have to set up Google Apps as a SAML identity provider (IdP) for AWS. There are tasks to be performed on both the Google Apps and the Amazon sides.
 
 # For basic installation
 
 To get AWS STS token using gsuite credential we have execute the python script. to execute the python script we have ensure python and required library are installed in your local host. the below step will help us to install the application.
+
+
 
 the below command are used in ubuntu OS:
 
@@ -92,4 +93,7 @@ optional arguments:
   -V, --version         show program's version number and exit
 
 
+Note: for detailed instruction refer the below link step 7:
+
+https://life360.atlassian.net/wiki/spaces/INFENG/pages/653066245/Federated+Single+Sign-on+design+document+-+draft
 
