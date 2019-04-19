@@ -3,7 +3,8 @@
 
 This command-line tool allows you to acquire AWS temporary (STS) credentials using Google Apps as a federated (Single Sign-On, or SSO) provider.
 
-Setup
+Setup:
+
 You'll first have to set up Google Apps as a SAML identity provider (IdP) for AWS. There are tasks to be performed on both the Google Apps and the Amazon sides.
 
 # For basic installation
