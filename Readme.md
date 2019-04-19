@@ -6,18 +6,32 @@ This command-line tool allows you to acquire AWS temporary (STS) credentials usi
 Setup
 You'll first have to set up Google Apps as a SAML identity provider (IdP) for AWS. There are tasks to be performed on both the Google Apps and the Amazon sides.
 
-Installation
-You can install quite easily via pip, if you want to have it on your local system:
-
 # For basic installation
+You can install quite easily via python, pip, if you want to have it on your local system:
+
+
+To get AWS STS token using gsuite credential we have execute the script. to execute the python script we have ensure python and required 
+library. the below step will help you install the application.
+
+the below command are used in ubuntu OS.
+
+localhost$ sudo apt install python
+
 localhost$ sudo pip install -r requirement.txt
 
 # Run the below command from your local machine
 
-#Native Python
- 
-You will be prompted to supply each parameter
-Execute python __init__.py -u username 
+Once you installed above application, clone the repositroy.
+
+go to cloned repository 
+
+localhost$ cd /google-auth
+
+Execute the __init__.py file as mentioned below.
+
+localhost$ python __init__.py -u username 
+
+it will prompt you to provide email details and password.
 
 usage: python __init__.py -u username  [-h] [-u USERNAME] [-I IDP_ID] [-S SP_ID] [-R REGION]
 
@@ -75,5 +89,5 @@ optional arguments:
   
   -V, --version         show program's version number and exit
 
-it will prompt you to provide email details and password.
+
 
