@@ -1,4 +1,4 @@
-# google-auth
+# Google-auth
 
 
 This command-line tool allows you to acquire AWS temporary (STS) credentials using Google Apps as a federated (Single Sign-On, or SSO) provider.
